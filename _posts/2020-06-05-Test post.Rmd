@@ -1,0 +1,20 @@
+---
+title: "Test markdown"
+author: "Arun Marria"
+date: "05/06/2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Test doc
+
+```{python}
+import pandas
+def sumtwo(x,y):
+  return x+y
+print(sumtwo(3,4))
+
+```
